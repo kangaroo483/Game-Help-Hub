@@ -45,9 +45,28 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/trainersdiamond&pearl.png
+    - assets/pokemonicon1.png
+    - assets/pokemon_types_icons/bug_type.ico
+    - assets/pokemon_types_icons/dark_type.ico
+    - assets/pokemon_types_icons/dragon_type.ico
+    - assets/pokemon_types_icons/electric_type.ico
+    - assets/pokemon_types_icons/fairy_type.ico
+    - assets/pokemon_types_icons/fighting_type.ico
+    - assets/pokemon_types_icons/fire_type.ico
+    - assets/pokemon_types_icons/flying_type.ico
+    - assets/pokemon_types_icons/ghost_type.ico
+    - assets/pokemon_types_icons/grass_type.ico
+    - assets/pokemon_types_icons/ground_type.ico
+    - assets/pokemon_types_icons/ice_type.ico
+    - assets/pokemon_types_icons/normal_type.ico
+    - assets/pokemon_types_icons/poison_type.ico
+    - assets/pokemon_types_icons/psychic_type.ico
+    - assets/pokemon_types_icons/rock_type.ico
+    - assets/pokemon_types_icons/steel_type.ico
+    - assets/pokemon_types_icons/water_type.ico
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
