@@ -1,16 +1,18 @@
 # pokemon_help_hub
 
-A new Pokemon Flutter project for CS 4750.
+A new Pokemon Flutter project for CS 4750. 
 
-## Getting Started
+## Information about Pokemon Help Hub 
 
-This project is a starting point for a Flutter application.
+Pokemon Help Hub is a mobile application that allows for Pokemon users 
+to optimize their game play experience. 
 
-A few resources to get you started if this is your first Flutter project:
+Current Tool: 
+-Main menu
+-Pokemon type matching for all 18 types 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Future Updates: 
+-Maps for different regions 
+-Pokedex for all Pokemon
+-Eevee tracker 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
