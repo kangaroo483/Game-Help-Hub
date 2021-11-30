@@ -15,9 +15,9 @@ void main() {
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the Home Page widget.
-        '/': (context) => MyHomePage(title: 'Pokemon Help Hub'),
+        '/': (context) => MyHomePage(title: 'Game Help Hub'),
         // When navigating to the "/second" route, build the TypeMatchingPage widget.
-        '/second': (context) => TypeMatchingPage(title: 'Pokemon Type Matching'),
+        '/second': (context) => TypeMatchingPage(title: 'Type Matching'),
       },
     ),
   );
@@ -27,11 +27,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pokemon Help Hub',
+      title: 'Game Help Hub',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Pokemon Help Hub'),
+      home: MyHomePage(title: 'Game Help Hub'),
     );
   }
 }
@@ -60,27 +60,17 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
 
         title: Text(widget.title),
-        //TODO: Make sure to figure out how add icon in title
-        // leading: Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Image.asset(
-        //   "assets/pokemonicon1.png",
-        //   ),
-        // ),
       ),
       body: Center(
           child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Welcome to Pokemon Help Hub!',
+              'Welcome to Game Help Hub!',
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 25,
               ),
-            ),
-            Image(
-                image: AssetImage('assets/trainersdiamond&pearl.png')
             ),
           ],
         ),
@@ -113,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              title: const Text('Pokemon Type Matching'),
+              title: const Text('Type Matching'),
               onTap: () {
                 // Update the state of the app
                 // ...

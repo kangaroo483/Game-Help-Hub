@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-//import 'package:flutter/type_matching_page.dart';  //error
-
-
 import 'main.dart';
 
 class TypeMatching extends StatelessWidget {
@@ -11,11 +8,11 @@ class TypeMatching extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Pokemon Type Matching',
+      title: 'Type Matching',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: TypeMatchingPage(title: 'Pokemon Type Matching'),
+      home: TypeMatchingPage(title: 'Type Matching'),
     );
   }
 }
@@ -138,7 +135,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
               },
             ),
             ListTile(
-              title: const Text('Pokemon Type Matching'),
+              title: const Text('Type Matching'),
               onTap: () {
                 // Update the state of the app
                 // Then close the drawer
@@ -157,7 +154,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nFighting"
             "\n\nNo Effect (0x Damage from):\nGhost",
         colorsItem: Color(0xFFA4A9AC),
-        img: 'assets/pokemon_types_icons/normal_type.ico'
+        img: 'assets/types_icons/normal_type.ico'
     ),
     ItemModel(
         headerItem: 'Fire',
@@ -165,7 +162,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nWater, Ground, Rock"
             "\n\nNot Effective (1/2x Damage from):\nFire, Grass, Ice, Bug, Steel, Fairy",
         colorsItem: Colors.red,
-        img: 'assets/pokemon_types_icons/fire_type.ico'
+        img: 'assets/types_icons/fire_type.ico'
     ),
     ItemModel(
         headerItem: 'Water',
@@ -173,7 +170,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nElectric, Grass"
             "\n\nNot Effective (1/2x Damage from):\nFire, Water, Ice, Steel",
         colorsItem: Colors.blue,
-        img: 'assets/pokemon_types_icons/water_type.ico'
+        img: 'assets/types_icons/water_type.ico'
     ),
     ItemModel(
         headerItem: 'Grass',
@@ -181,7 +178,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nFire, Ice, Poison, Flying, Bug"
         "\n\nNot Effective (1/2x Damage from):\nWater, Electric, Grass, Ground",
         colorsItem: Colors.green,
-        img: 'assets/pokemon_types_icons/grass_type.ico'
+        img: 'assets/types_icons/grass_type.ico'
     ),
     ItemModel(
         headerItem: 'Electric',
@@ -189,7 +186,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nGround"
             "\n\nNot Effective (1/2x Damage from):\nElectric, Flying, Steel",
         colorsItem: Color(0xFFDCBF02),
-        img: 'assets/pokemon_types_icons/electric_type.ico'
+        img: 'assets/types_icons/electric_type.ico'
     ),
     ItemModel(
         headerItem: 'Ice',
@@ -197,7 +194,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nFire, Fighting, Rock, Steel"
             "\n\nNot Effective (1/2x Damage from):\Ice",
         colorsItem: Color(0xFF7DC6F3),
-        img: 'assets/pokemon_types_icons/ice_type.ico'
+        img: 'assets/types_icons/ice_type.ico'
     ),
     ItemModel(
         headerItem: 'Fighting',
@@ -205,7 +202,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nFlying, Psychic, Fairy"
             "\n\nNot Effective (1/2x Damage from):\nBug, Rock, Dark",
         colorsItem: Color(0x798B1414),
-        img: 'assets/pokemon_types_icons/fighting_type.ico'
+        img: 'assets/types_icons/fighting_type.ico'
     ),
     ItemModel(
         headerItem: 'Poison',
@@ -213,7 +210,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nGround, Psychic"
             "\n\nNot Effective (1/2x Damage from):\nGrass, Fighting, Poison, Bug, Fairy",
         colorsItem: Color(0x56FA2BB3),
-        img: 'assets/pokemon_types_icons/poison_type.ico'
+        img: 'assets/types_icons/poison_type.ico'
     ),
     ItemModel(
         headerItem: 'Ground',
@@ -222,7 +219,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\n\nNot Effective (1/2x Damage from):\nPoison, Rock"
             "\n\nNo Effect (0x Damage from):\nElectric",
         colorsItem: Color(0xB8DCA77E),
-        img: 'assets/pokemon_types_icons/ground_type.ico'
+        img: 'assets/types_icons/ground_type.ico'
     ),
     ItemModel(
         headerItem: 'Flying',
@@ -231,7 +228,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\n\nNot Effective (1/2x Damage from):\nGrass, Fighting, Bug"
             "\n\nNo Effect (0x Damage from):\nGround",
         colorsItem: Color(0xF2CC9DF3),
-        img: 'assets/pokemon_types_icons/flying_type.ico'
+        img: 'assets/types_icons/flying_type.ico'
     ),
     ItemModel(
         headerItem: 'Psychic',
@@ -239,7 +236,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nBug, Ghost, Dark"
             "\n\nNot Effective (1/2x Damage from):\nFighting, Psychic",
         colorsItem: Color(0xDDFF0379),
-        img: 'assets/pokemon_types_icons/psychic_type.ico'
+        img: 'assets/types_icons/psychic_type.ico'
     ),
     ItemModel(
         headerItem: 'Bug',
@@ -247,7 +244,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nFire, Flying, Rock"
             "\n\nNot Effective (1/2x Damage from):\nGrass, Fighting, Ground",
         colorsItem: Color(0xD2A9D557),
-        img: 'assets/pokemon_types_icons/bug_type.ico'
+        img: 'assets/types_icons/bug_type.ico'
     ),
     ItemModel(
         headerItem: 'Rock',
@@ -255,7 +252,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nWater, Grass, Fighting, Ground, Steel"
             "\n\nNot Effective (1/2x Damage from):\nNormal, Fire, Poison, Flying",
         colorsItem: Color(0x8B873A06),
-        img: 'assets/pokemon_types_icons/rock_type.ico'
+        img: 'assets/types_icons/rock_type.ico'
     ),
     ItemModel(
         headerItem: 'Ghost',
@@ -264,7 +261,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\n\nNot Effective (1/2x Damage from):\nPoison, Bug"
             "\n\nNo Effect (0x Damage from):\nNormal, Fighting",
         colorsItem: Color(0x4B942AEC),
-        img: 'assets/pokemon_types_icons/ghost_type.ico'
+        img: 'assets/types_icons/ghost_type.ico'
     ),
     ItemModel(
         headerItem: 'Dragon',
@@ -272,7 +269,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
         "Super Effective (2x Damage from):\nIce, Dragon, Fairy"
             "\n\nNot Effective (1/2x Damage from):\nFire, Water, Grass, Electric",
         colorsItem: Color(0xF37A01DE),
-        img: 'assets/pokemon_types_icons/dragon_type.ico'
+        img: 'assets/types_icons/dragon_type.ico'
     ),
     ItemModel(
         headerItem: 'Dark',
@@ -281,7 +278,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\n\nNot Effective (1/2x Damage from):\nGhost, Dark"
             "\n\nNo Effect (0x Damage from):\nPsychic",
         colorsItem: Color(0x99492600),
-        img: 'assets/pokemon_types_icons/dark_type.ico'
+        img: 'assets/types_icons/dark_type.ico'
     ),
     ItemModel(
         headerItem: 'Steel',
@@ -291,7 +288,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\nPsychic, Bug, Rock, Dragon, Steel, Fairy"
             "\n\nNo Effect (0x Damage from):\nPoison",
         colorsItem: Color(0xAE888389),
-        img: 'assets/pokemon_types_icons/steel_type.ico'
+        img: 'assets/types_icons/steel_type.ico'
     ),
     ItemModel(
         headerItem: 'Fairy',
@@ -300,7 +297,7 @@ class _TypeMatchingPageState extends State<TypeMatchingPage> {
             "\n\nNot Effective (1/2x Damage from):\nFighting, Bug, Dark"
             "\n\nNo Effect (0x Damage from):\nDragon",
         colorsItem: Color(0xF7EE41C9),
-        img: 'assets/pokemon_types_icons/fairy_type.ico'
+        img: 'assets/types_icons/fairy_type.ico'
     ),
   ];
 }

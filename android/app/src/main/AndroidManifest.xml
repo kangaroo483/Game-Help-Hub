@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ashleykang.pokemon_help_hub">
+    package="com.ashleykang.game_help_hub">
    <application
-        android:label="Pokemon Help Hub"
+        android:label="Game Help Hub"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
