@@ -1,6 +1,6 @@
 # game_help_hub
 
-A new Pokemon Flutter project for CS 4750. 
+A new Flutter project for CS 4750. 
 
 ## Information about Game Help Hub 
 
